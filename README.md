@@ -15,10 +15,10 @@
     <img src="media/Gas.png" alt="https://free3dicon.com/icon/gas/" width="128">
   </a>
 
-<h3 align="center">Biogas Plants Fulfillment Optimization</h3>
+<h3 align="center">Biogas Plants Location and Supply Planning Optimization Problem</h3>
 
   <p align="center">
-    Biogas plants fulfillment optimization through operations research ⛽️
+    Biogas Location and Supply Problem - Foundations of Operations Research Big Project 2023 - Politecnico di Milano
     <br />
     <br />
     <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug 🪳</a>
@@ -101,6 +101,6 @@ Distributed under the `GPLv3` License. See `LICENSE` for more information.
 
 Giovanni *Baccichet*, Luca *Cassenti*, Mario *Cela* (`name.surname@polimi.it`)
 
-Project Link: [https://github.com/GiovanniBaccichet/biogasOR](https://github.com/GiovanniBaccichet/biogasOR)
+Project Link: [https://github.com/MarioCela/Biogas_Location_OR](https://github.com/GiovanniBaccichet/biogasOR)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
