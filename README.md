@@ -1,11 +1,38 @@
-## Group Members
-*Mario Cela*
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-*Giovanni Baccichet*
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/GiovanniBaccichet/biogasOR">
+    <img src="media/Gas.png" alt="https://free3dicon.com/icon/gas/" width="128">
+  </a>
 
-*Luca Cassenti*
+<h3 align="center">Biogas Plants Fulfillment Optimization</h3>
 
-## Biogas plants location
+  <p align="center">
+    Biogas plants fulfillment optimization through operations research ⛽️
+    <br />
+    <a href="https://github.com/GiovanniBaccichet/biogasOR"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/GiovanniBaccichet/biogasOR">View Demo</a>
+    ·
+    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- ABOUT THE PROJECT -->
+## Biogas Plants Location Problem 🌾
 
 An association of $n$ farmers wants to open $p$ plants to produce energy from biogas. 
 Each plant will be opened at a farm of a member of the association and will be powered with corn chopping purchased from the farm itself or from other neighboring farms.
@@ -20,25 +47,63 @@ Under such conditions, every plant produces $Q$ kWh of energy per ton of corn ch
 
 You must locate $p$ plants among the available farms and assign the farms that will supply each plant, with the goal of maximizing the total revenues of the association.
 
-## Solution
-The Python programming language is used to solve the problem. In particular, we used the MIP solver from the homonym package.
+<p align="center">
+  <img src="media/farm-illustration.png" alt="Image by macrovector on Freepik"/>
+</p>
 
-In the first part of the notebook there is the modelization, with the definition of variables, constraints and objective function.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-In the second part there is the code that follows the path shown by the model. 
+## Solution 🎯
 
-One of the main difficulties of the problem is to keep all the runtimes under 10 minutes.
-To do that, we used an heuristic. Considering that transportation costs are way less than the profits, we modified the objective function, removing the
+The Python programming language is used to solve the problem. In particular, we used the MIP solver from the homonym package. In the first part of the notebook there is the modelling, with the definition of variables, constraints and objective function. In the second part there is the code that follows the path shown by the model. 
+
+One of the main difficulties of the problem is to keep all the runtimes under 10 minutes. To do that, we used an heuristic. Considering that transportation costs are way less than the profits, we modified the objective function, removing the
 calculation of costs. Furthermore, we decided to locate plants on farms that have the greater amounts of corn chopping. In this way, the optimization problem is reduced in finding the edges that must be activated for the transportation in order to maximize tons of material burnt.
 
-Solutions are suboptimal, but it is an approach that is usually seen also in real problems: sacrificing optimality to reduce computing times of the machine.
+Since we decided to use an heuristic, solutions are suboptimal, but considering the time that said approach takes to obtains valid results, we considered it to be a valid tradeoff between optimality and the resources spent to achieve satisfying results.
 
-It follows an example of the optimization result.
+It follows an example of the optimization result. In particular, red nodes are the ones in which it is located a plant, green nodes ar just farms. Edges represent a transportation edge between the two nodes. On the axis, X and Y coordinates of the (given) farms.
 
-In particular, red nodes are the one in which it is located a plant, green nodes ar just farms. Edges represent a transportation edge between the two nodes.
+![Result Example](media/result_example.png)
 
-![Drag Racing](/src/Images/download.png)
+You can find the Jupyter Notebook [here](notebook.ipynb).
 
-You can find the Jupyter Notebook [here](GiovanniBaccichet_LucaCassenti_MarioCela.ipynb).
+If you want just the Python script, you can find it [here](src/main.py).
 
-If you want just the Python script, you can find it [here](/src/main.py).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Contributing ✨
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License 📄
+
+Distributed under the `GPLv3` License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Group Members 👥
+
+Giovanni *Baccichet*, Luca *Cassenti*, Mario *Cela* (`name.surname@polimi.it`)
+
+Project Link: [https://github.com/GiovanniBaccichet/biogasOR](https://github.com/GiovanniBaccichet/biogasOR)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
