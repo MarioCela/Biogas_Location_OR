@@ -20,15 +20,12 @@
   <p align="center">
     Biogas plants fulfillment optimization through operations research ⛽️
     <br />
-    <a href="https://github.com/GiovanniBaccichet/biogasOR"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/GiovanniBaccichet/biogasOR">View Demo</a>
+    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug 🪳</a>
     ·
-    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Request Feature</a>
+    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Request Feature ✨</a>
   </p>
+  <br />
 </div>
 
 <!-- ABOUT THE PROJECT -->
