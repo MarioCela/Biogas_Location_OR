@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MarioCela/Biogas_Location_&_Supply_Problem_OR">
+  <a href="https://github.com/MarioCela/Biogas_Location_and_Supply_Problem_OR">
     <img src="media/Gas.png" alt="https://free3dicon.com/icon/gas/" width="128"
   </a>
 
