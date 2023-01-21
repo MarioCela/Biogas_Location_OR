@@ -11,8 +11,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/GiovanniBaccichet/biogasOR">
-    <img src="media/Gas.png" alt="https://free3dicon.com/icon/gas/" width="128">
+  <a href="https://github.com/MarioCela/Biogas_Location_&_Supply_Problem_OR">
+    <img src="media/Gas.png" alt="https://free3dicon.com/icon/gas/" width="128"
   </a>
 
 <h3 align="center">Biogas Plants Location and Supply Planning Optimization Problem</h3>
@@ -99,8 +99,12 @@ Distributed under the `GPLv3` License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Group Members 👥
 
-Giovanni *Baccichet*, Luca *Cassenti*, Mario *Cela* (`name.surname@polimi.it`)
+*Giovanni Baccichet* 
 
-Project Link: [https://github.com/MarioCela/Biogas_Location_OR](https://github.com/GiovanniBaccichet/biogasOR)
+*Luca Cassenti* 
+
+*Mario Cela* 
+
+You can contact us by e-mail writing to: `name.surname@polimi.it`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
