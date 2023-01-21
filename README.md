@@ -21,7 +21,7 @@
     Biogas Location and Supply Problem - Foundations of Operations Research Big Project 2023 - Politecnico di Milano
     <br />
     <br />
-    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug 🪳</a>
+    <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Report Bug :bug:</a>
     ·
     <a href="https://github.com/GiovanniBaccichet/biogasOR/issues">Request Feature ✨</a>
   </p>
