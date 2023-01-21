@@ -90,7 +90,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License 📄
 
-Distributed under the `GPLv3` License. See `LICENSE` for more information.
+Distributed under the `GPL-3.0` License. See [LICENSE](https://github.com/MarioCela/Biogas_Location_and_Supply_Problem_OR/blob/main/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
